@@ -38,19 +38,18 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <product-list />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import ProductList from './components/ProductList.vue'
 
 export default {
   name: 'App',
-
   components: {
-    HelloWorld,
+    ProductList
   },
 
   data: () => ({
